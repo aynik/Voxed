@@ -1,0 +1,22 @@
+.dark :where([data-headlessui-state~=open]) .ui-open\:bg-gray-800,
+.dark .dark\:bg-gray-700,
+.dark .dark\:bg-gray-800,
+.dark .btn-neutral,
+.dark .bg-gray-600,
+.dark .bg-gray-800,
+.dark .bg-gray-900 {
+    background-color: black !important;
+}
+
+.dark .dark\:bg-\[\#444654\] {
+    background-color: #111 !important;
+}
+
+.dark .bg-gradient-to-l {
+    background-image: none;
+}
+
+button.absolute {
+   height: 28px;
+   padding: 0px 10px;
+}
